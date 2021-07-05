@@ -32,80 +32,41 @@
             <img src="images/menu.png" class="menu-icon" onclick="menutoggel()">
             </div>   
         </div>
-
-<!------cart items details------>
-        <div class="small-container cart-page">
-            <table>
-                <tr>
-                    <th>Product</th>
-                    <th>Quantity</th>
-                    <th>Subtotal</th>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="cart-info">
-                            <img src="images/buy-1.jpg">
-                            <div>
-                                <p>Red Prnted T-Shirt</p>
-                                <small>Price : $50.00</small>
-                                <br>
-                                <a href="">Remove</a>
-                            </div>
-                        </div>
-                    </td>
-                    <td><input type="number" value="1"></td>
-                    <td>$50.00</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="cart-info">
-                            <img src="images/buy-2.jpg">
-                            <div>
-                                <p>Shoes</p>
-                                <small>Price : $30.00</small>
-                                <br>
-                                <a href="">Remove</a>
-                            </div>
-                        </div>
-                    </td>
-                    <td><input type="number" value="1"></td>
-                    <td>$30.00</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="cart-info">
-                            <img src="images/buy-3.jpg">
-                            <div>
-                                <p>pent</p>
-                                <small>Price : $70.00</small>
-                                <br>
-                                <a href="">Remove</a>
-                            </div>
-                        </div>
-                    </td>
-                    <td><input type="number" value="1"></td>
-                    <td>$70.00</td>
-                </tr>
-            </table>
-            <div class="total-price">
-                <table>
-                    <tr>
-                        <td>Subtotal</td>
-                        <td>$150.00</td>
-                    </tr>
-                    <tr>
-                        <td>tax</td>
-                        <td>$20.00</td>
-                    </tr>
-                    <tr>
-                        <td>Total</td>
-                        <td>$170.00</td>
-                    </tr>
-                </table>
+<!------Account page details------>
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+             <div class="col-2">
+                 <img src="images/image1.png" width="100%">
+             </div>
+             <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Register</span>
+                        <hr id="Indiacator">
+                    </div>
+                   
+                    <form id="LoginForm">
+                        <input type="text" placeholder="username">
+                        <input type="password" placeholder="password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgot password</a>
+                    </form>
+                    
+                    
+                    <form id="RegForm">
+                        <input type="text" placeholder="username">
+                        <input type="email" placeholder="email">
+                        <input type="password" placeholder="password">
+                        <button type="submit" class="btn">Register</button>
+                    </form>
+                
+                </div>
             </div>
-
         </div>
-
+    </div>
+</div>
 
 <!------footer------>
 <div class="footer">
@@ -166,6 +127,30 @@
 
 </script>
 
+<!------js for toggle form------>
+
+<script>
+
+var LoginForm = document.getElementById("LoginForm");
+var RegForm = document.getElementById("RegForm");
+var Indiacator = document.getElementById("Indiacator");
+
+    function register(){
+
+        RegForm.style.transform = "translateX(0px)";
+        LoginForm.style.transform = "translateX(0px)";
+        Indiacator.style.transform = "translateX(100px)";
+    }
+
+    function login(){
+
+       RegForm.style.transform = "translateX(370px)";
+       LoginForm.style.transform = "translateX(370px)";
+       Indiacator.style.transform = "translateX(0px)";
+}
+
+
+</script>
 
 </body>
 </html>
