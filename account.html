@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,161 +108,7 @@
     </div>
 </div>
 
-<!------js for toggle menu------>
-<script>
-    var MenuItems = document.getElementById("MenuItems");
 
-    MenuItems.style.maxHeight = "0px";
-
-    function menutoggel(){
-        if(MenuItems.style.maxHeight == "0px")
-        {
-            MenuItems.style.maxHeight = "200px";
-        }
-        else 
-        {
-            MenuItems.style.maxHeight = "0px";
-        }
-    }
-
-</script>
-
-<!------js for toggle form------>
-
-<script>
-
-var LoginForm = document.getElementById("LoginForm");
-var RegForm = document.getElementById("RegForm");
-var Indiacator = document.getElementById("Indiacator");
-
-    function register(){
-
-        RegForm.style.transform = "translateX(0px)";
-        LoginForm.style.transform = "translateX(0px)";
-        Indiacator.style.transform = "translateX(100px)";
-    }
-
-    function login(){
-
-       RegForm.style.transform = "translateX(370px)";
-       LoginForm.style.transform = "translateX(370px)";
-       Indiacator.style.transform = "translateX(0px)";
-}
-
-
-</script>
-
-</body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width",initial-scale=1.0>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Products - DStor</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-</head>
-<body>
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                <img src="images/logo3.png" width="125px">
-                </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Product</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="account.html">Account</a></li>
-                </ul>
-            </nav>
-            <img src="images/cart.png" width="30px" height="30px">
-            <img src="images/menu.png" class="menu-icon" onclick="menutoggel()">
-            </div>   
-        </div>
-<!------Account page details------>
-<div class="account-page">
-    <div class="container">
-        <div class="row">
-             <div class="col-2">
-                 <img src="images/image1.png" width="100%">
-             </div>
-             <div class="col-2">
-                <div class="form-container">
-                    <div class="form-btn">
-                        <span onclick="login()">Login</span>
-                        <span onclick="register()">Register</span>
-                        <hr id="Indiacator">
-                    </div>
-                   
-                    <form id="LoginForm">
-                        <input type="text" placeholder="username">
-                        <input type="password" placeholder="password">
-                        <button type="submit" class="btn">Login</button>
-                        <a href="">Forgot password</a>
-                    </form>
-                    
-                    
-                    <form id="RegForm">
-                        <input type="text" placeholder="username">
-                        <input type="email" placeholder="email">
-                        <input type="password" placeholder="password">
-                        <button type="submit" class="btn">Register</button>
-                    </form>
-                
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!------footer------>
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-col-1">
-                <h3>Dowload Our App</h3>
-                <p>Dowload app for android and ios mobile phones</p>
-                <div class="app-logo">
-                    <img src="images/play-store.png">
-                    <img src="images/app-store 2.png">
-                </div>
-            </div>
-            <div class="footer-col-2">
-                <img src="images/logo3.png">
-                <p>Our purpose is to sustainably make  the  pleasure and  benfits of  sports accessible to  the may.</p>
-            </div>
-            <div class="footer-col-3">
-                <h3>USeful links</h3>
-               <ul>
-                   <li>Coupons</li>
-                   <li>Blog post</li>
-                   <li>Return policy</li>
-                   <li>join Affiliate</li>
-               </ul>
-            </div>
-            <div class="footer-col-4">
-                <h3>Follow us</h3>
-               <ul>
-                   <li>Facebook</li>
-                   <li>twitter</li>
-                   <li>instagram</li>
-                   <li>youtube</li>
-               </ul>
-            </div>
-        </div>
-        <hr>
-        <p class="Copyright">Copyright 2020 -Dstor company</p>
-    </div>
-</div>
 
 <!------js for toggle menu------>
 <script>
@@ -301,14 +146,11 @@ var Indiacator = document.getElementById("Indiacator");
 
     function login(){
 
-       RegForm.style.transform = "translateX(370px)";
-       LoginForm.style.transform = "translateX(370px)";
+       RegForm.style.transform = "translateX(300px)";
+       LoginForm.style.transform = "translateX(300px)";
        Indiacator.style.transform = "translateX(0px)";
 }
 
 
 </script>
-
-</body>
->>>>>>> 425c056e73e00109094ad9a5b1fffdfb297628e8
 </html>
