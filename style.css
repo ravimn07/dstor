@@ -92,6 +92,8 @@ margin-top: 70px;
      margin: auto;
      padding-left: 25px;
      padding-right: 25px;
+     padding-top: 10px;
+     background:radial-gradient(#fff,#ffd6d6);  
 }
 .col-4{
     flex-basis: 25%;
@@ -503,4 +505,13 @@ form a{
     .cart-info p{
         display: none;
     }
+}
+/*------about section----*/
+.about{
+    background:radial-gradient(#fff,#ffd6d6);  
+    padding-bottom: 0px;
+    margin-bottom: 25px;
+    max-width: auto;
+    margin: 0 20px;
+    border: 1px solid #333; 
 }

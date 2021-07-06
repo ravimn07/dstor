@@ -30,44 +30,26 @@
             </nav>
             <img src="images/cart.png" width="30px" height="30px">
             <img src="images/menu.png" class="menu-icon" onclick="menutoggel()">
-            </div>   
-        </div>
-<!------Account page details------>
-<div class="account-page">
-    <div class="container">
-        <div class="row">
-             <div class="col-2">
-                 <img src="images/image1.png" width="100%">
-             </div>
-             <div class="col-2">
-                <div class="form-container">
-                    <div class="form-btn">
-                        <span onclick="login()">Login</span>
-                        <span onclick="register()">Register</span>
-                        <hr id="Indiacator">
-                    </div>
-                   
-                    <form id="LoginForm">
-                        <input type="text" placeholder="username">
-                        <input type="password" placeholder="password">
-                        <button type="submit" class="btn">Login</button>
-                        <a href="">Forgot password</a>
-                    </form>
-                    
-                    
-                    <form id="RegForm">
-                        <input type="text" placeholder="username">
-                        <input type="email" placeholder="email">
-                        <input type="password" placeholder="password">
-                        <button type="submit" class="btn">Register</button>
-                    </form>
-                
+            </div> 
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout <br>A New Style!</h1>
+                    <p>Success isn't always about greatnes.it's about consistency. consistent <br> work gain success. greatnes will come.</p>
+                    <a href="products.html" class="btn">Explore Now &#8594;</a>
                 </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>  
+        </div>
+<!-----about section------>
+   <div class="about">
+        <div class="small-container">
+            <div class="row">
+                        <h3>this Website is for shopping .all brands are Available here .</h3>
             </div>
         </div>
     </div>
-</div>
-
 <!------footer------>
 <div class="footer">
     <div class="container">
@@ -108,8 +90,6 @@
     </div>
 </div>
 
-
-
 <!------js for toggle menu------>
 <script>
     var MenuItems = document.getElementById("MenuItems");
@@ -129,28 +109,5 @@
 
 </script>
 
-<!------js for toggle form------>
-
-<script>
-
-var LoginForm = document.getElementById("LoginForm");
-var RegForm = document.getElementById("RegForm");
-var Indiacator = document.getElementById("Indiacator");
-
-    function register(){
-
-        RegForm.style.transform = "translateX(0px)";
-        LoginForm.style.transform = "translateX(0px)";
-        Indiacator.style.transform = "translateX(100px)";
-    }
-
-    function login(){
-
-       RegForm.style.transform = "translateX(300px)";
-       LoginForm.style.transform = "translateX(300px)";
-       Indiacator.style.transform = "translateX(0px)";
-}
-
-
-</script>
+</body>
 </html>
