@@ -515,3 +515,26 @@ form a{
     margin: 0 20px;
     border: 1px solid #333; 
 }
+/*--------blog-------*/
+
+.blog-categories{
+    border: radius 23px;;
+    background:white;
+    margin:auto;
+    padding: 5px 0;
+}
+.blog-categories .col-3 img{
+    size: 80px;
+    height: 400px;
+    margin: auto;
+    padding: 10px 0;
+}
+.blog-categories h3{
+    color:white;
+    border-color: red;
+    border: 1px solid white;
+    background-color:#ff523b;
+    border-radius: 2in;
+    width: 90px;
+    padding-left: 5px;
+}
