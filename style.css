@@ -538,3 +538,26 @@ form a{
     width: 90px;
     padding-left: 5px;
 }
+
+/*-------travel-------*/
+.travel-india{
+    margin: auto;
+    padding-left: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.small-container-travel{
+    box-sizing: border-box;
+    margin: auto;
+    padding-top: 5px ;
+    padding: auto;
+}
+
+
+/*------mahal------*/ 
+
+.mahal-row img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
